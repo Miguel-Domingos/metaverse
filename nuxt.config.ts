@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   router: {
+    base: "metaverse",
     options: {
       linkActiveClass: "active",
       linkExactActiveClass: "exact-active",
