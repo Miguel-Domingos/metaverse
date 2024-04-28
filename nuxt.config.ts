@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   app: {
     baseURL: "metaverse",
+    buildAssetsDir: "assets",
   },
   devtools: { enabled: true },
   router: {
