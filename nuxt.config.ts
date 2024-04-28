@@ -1,8 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    baseURL: "metaverse",
+  },
   devtools: { enabled: true },
   router: {
-    base: "metaverse",
     options: {
       linkActiveClass: "active",
       linkExactActiveClass: "exact-active",
